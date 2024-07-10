@@ -66,6 +66,7 @@ function animatechar_r()
   }
   setTimeout(function() {
     dkeyp = false;
+// evansh kavyal sedan <3
   }, images.length * 500);
 }
 
