@@ -3,10 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>game thingy</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+    <title>FlÆshlight Finder</title>
 </head>
 <body>
-    <div id="circle"></div>
+    <div id="container" class="container">
+        <div id="char"><img src="walk_normal.svg" width="100%" height="100%" id="char_img"></div>
+        <div class="random-div" id="div1"><img src="flashlight_1.png" width="100%"></div>
+        <div class="random-div" id="div2"><img src="flashlight_2.png" width="100%"></div>
+        <div class="random-div" id="div3"><img src="flashlight_3.png" width="100%"></div>
+        <div class="random-div" id="div4"><img src="flashlight_4.png" width="100%"></div>
+    </div>
+    
+    <div id="timer" onclick="location.reload()">Time: 0.000 seconds</div>
+
+    <div id="game_title">FlÆshlight Finder</div>
+
+    <div id="me">Created By :- <b>Aastik P</b></div>
+
 </body>
 </html>
